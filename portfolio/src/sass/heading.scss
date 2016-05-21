@@ -1,0 +1,77 @@
+.heading_wrapper {
+	width: 100vw;
+	height: 100px;
+	border: 1px solid red;
+	display: flex;
+}
+
+// -------------- START LOGO SECTION -----------------
+
+.heading_logo {
+	content: url(http://i.imgur.com/AQbOqlS.png);
+	width: 50px;
+	height: auto;
+}
+
+// -------------- END LOGO SECTION -----------------
+
+
+// -------------- START MENU SECTION -----------------
+
+.menu_wrapper1 {
+	 display: flex;
+  	margin: auto;
+  	flex-direction: row;
+}
+
+.menu_wrapper2 {
+	align-items: center;
+	flex-direction: row;
+	display: flex; 
+}
+
+.logo_wrapper {
+	display: flex;
+}
+
+.heading_logo {
+	justify-content: flex-start;
+}
+
+.squig_left {
+	content: url(http://i.imgur.com/0CaH4Rl.png);
+	width: 20px;
+	height: 100%;
+}
+
+.aboutme_title {
+	content: url(http://i.imgur.com/R7iRXEW.png);
+	width: 120px;
+	height: 100%;
+}
+
+.resume_title {
+	content: url(http://i.imgur.com/cKCeOBh.png);
+	width: 120px;
+	height: 100%; 
+}
+
+.projects_title {
+	content: url(http://i.imgur.com/4oVs157.png);
+	width: 120px;
+	height: 100%;
+}
+
+.film_video_title {
+	content: url(http://i.imgur.com/FxIfxcT.png);
+	width: 120px;
+	height: 100%;
+}
+
+.squig_right {
+	content: url(http://i.imgur.com/ewLmcOq.png);
+	width: 20px;
+	height: 100%;
+}
+
+// -------------- END MENU SECTION -----------------
