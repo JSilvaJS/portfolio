@@ -1,0 +1,46 @@
+.votr_page_wrapper {
+  background-color: #3d3d39;
+  box-shadow: inset 0px 0px 13px 8px rgba(0, 0, 0, 0.5);
+  height: 90vh;
+  padding-top: 10px;
+  padding-bottom: 10px;	
+}
+
+.votr_wrapper {
+  background-color: #f3f3e5;
+  margin: auto;
+  text-align: center;
+  width: 600px;
+  height: 90vh;
+  border-radius: 17px;
+  box-shadow: 0px 13px 13px 8px rgba(0, 0, 0, 0.5)
+}
+
+div.votr_hero_img {
+  content: url(http://i.imgur.com/5AegVlG.png);
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50px;
+  box-shadow: inset 0px 0px 13px 8px rgba(0, 0, 0, 0.5);
+}
+
+.votr-textarea {
+  background-color: white;
+  margin-top: 90px;
+  box-shadow: inset 0px 0px 13px 3px rgba(0, 0, 0, 0.5);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.votr-title {
+  padding-top: 25px;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.deployed-text {
+  margin-top: 15px;
+
+}
