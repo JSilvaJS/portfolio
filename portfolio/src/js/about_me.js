@@ -6,7 +6,12 @@ export default class AboutMe extends Component {
 	render() {
 		return (
 
-			<div>
+			<div className="aboutme_wrapper">
+
+				<div className="aboutme_picture_wrapper">
+					<div className="jon_picture"></div>
+					<div className="aboutme_textbox"><span>Hi, Hello There</span></div>
+				</div>
 				
 			</div>
 

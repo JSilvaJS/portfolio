@@ -1,0 +1,28 @@
+
+.aboutme_wrapper {
+	display: flex;
+	background-color: #f3f3e5;
+	box-shadow: inset 0px 0px 13px 8px rgba(0,0,0,.5);
+	height: 90vh;
+}
+
+.aboutme_picture_wrapper {
+  text-align: center;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jon_picture {
+   content: url(http://i.imgur.com/Y58yRp0.png);
+   width: 500px;
+   height: 100%;
+}
+
+.aboutme_textbox {
+	width: 700px;
+	height: 200px;
+	box-shadow: inset 0px 0px 13px 8px rgba(0,0,0,.5);
+	background-color: white;
+}
