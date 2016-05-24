@@ -26,6 +26,12 @@
   border-bottom: 1px solid gray;
 }
 
+.cabin_fever:hover {
+  opacity: .7;
+  transition: .3s;
+  cursor: pointer;
+}
+
 .votr {
 	content: url(http://i.imgur.com/UxvAyfj.png);
 	width: 350px;
@@ -36,6 +42,12 @@
     border-bottom: 1px solid gray;
 }
 
+.votr:hover {
+  opacity: .7;
+  transition: .3s;
+  cursor: pointer;
+}
+
 .daily_quests {
 	content: url(http://i.imgur.com/1RgCu77.png);
 	width: 400px;
@@ -44,3 +56,10 @@
     padding-top: 50px;
     padding-bottom: 25px;
 }
+
+.daily_quests:hover {
+  opacity: .7;
+  transition: .3s;
+  cursor: pointer;
+}
+

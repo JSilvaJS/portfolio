@@ -1,6 +1,7 @@
 import React, { Component }  from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router';
+import Footer from './footer';
 
 export default class Header extends Component {
 	render() {
@@ -28,6 +29,8 @@ export default class Header extends Component {
 				</div>
 
 				{this.props.children}
+
+				<Footer/>
 
 			</div>
 

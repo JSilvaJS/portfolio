@@ -12,18 +12,37 @@
   margin: auto;
   align-items: center;
   flex-direction: column;
+  height: 65vh;
+  width: 100vw;
+  margin-top: 30px;
 }
 
 .jon_picture {
-   content: url(http://i.imgur.com/Y58yRp0.png);
-   width: 500px;
-   height: 100%;
+  background: url(http://i.imgur.com/Y58yRp0.png);
+  background-size: 100% 100%;
+  width: 500px;
+  height: 100%;
 }
 
 .aboutme_textbox {
-	width: 700px;
-	height: 200px;
-	box-shadow: inset 0px 0px 13px 8px rgba(0,0,0,.5);
-	background-color: white;
-	border-radius: 7px;
+  width: 700px;
+  height: 200px;
+  box-shadow: inset 0px 0px 13px 8px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 6px solid #E2E1A9;
+  opacity: .7;
+}
+
+.text1 {
+  font-family: 'Satisfy', cursive;
+  font-size: 28px;
+  }
+
+.text2 {
+  font-family: 'Source Sans Pro', sans-serif;
 }

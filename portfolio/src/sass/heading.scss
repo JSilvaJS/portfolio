@@ -7,9 +7,12 @@
 // -------------- START LOGO SECTION -----------------
 
 .heading_logo {
-	content: url(http://i.imgur.com/AQbOqlS.png);
-	width: 50px;
-	height: auto;
+  background: url(http://i.imgur.com/AQbOqlS.png);
+  background-size: cover;
+  width: 50px;
+  height: 70px;
+  margin-top: 15px;
+  margin-left: 10px;
 }
 
 // -------------- END LOGO SECTION -----------------
@@ -38,39 +41,79 @@
 }
 
 .squig_left {
-	content: url(http://i.imgur.com/0CaH4Rl.png);
-	width: 20px;
-	height: 100%;
+    background: url(http://i.imgur.com/0CaH4Rl.png);
+    background-size: 100% 100%;
+    width: 20px;
+    height: 60px;
 }
 
 .aboutme_title {
-	content: url(http://i.imgur.com/R7iRXEW.png);
-	width: 120px;
-	height: 100%;
+	background: url(http://i.imgur.com/R7iRXEW.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 130px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.aboutme_title:hover {
+	opacity: .7;
+	transition: .3s;
+	cursor: pointer;
 }
 
 .resume_title {
-	content: url(http://i.imgur.com/cKCeOBh.png);
-	width: 120px;
-	height: 100%; 
+	background: url(http://i.imgur.com/cKCeOBh.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 110px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+.resume_title:hover {
+    opacity: .7;
+	transition: .3s;
+	cursor: pointer;
 }
 
 .projects_title {
-	content: url(http://i.imgur.com/4oVs157.png);
-	width: 120px;
-	height: 100%;
+	background: url(http://i.imgur.com/4oVs157.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 15px;
+    width: 110px;
+    height: 50px;
+    margin-left: 25px;
+}
+
+.projects_title:hover {
+    opacity: .7;
+	transition: .3s;
+	cursor: pointer;
 }
 
 .film_video_title {
-	content: url(http://i.imgur.com/FxIfxcT.png);
-	width: 120px;
-	height: 100%;
+	background: url(http://i.imgur.com/FxIfxcT.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 160px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+.film_video_title:hover {
+    opacity: .7;
+	transition: .3s;
+	cursor: pointer;
 }
 
 .squig_right {
-	content: url(http://i.imgur.com/ewLmcOq.png);
-	width: 20px;
-	height: 100%;
+	background: url(http://i.imgur.com/ewLmcOq.png);
+    background-size: 100% 100%;
+    width: 20px;
+    height: 60px;
+    margin-left: 10px;
 }
 
 // -------------- END MENU SECTION -----------------
