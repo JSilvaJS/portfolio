@@ -1,5 +1,38 @@
 .footer_page_wrapper {
 background-color: #2e2e2b;
 width: 100vw;
-height: 100px;	
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+i.fa.fa-github {
+  color: #F3F3E5;
+  font-size: 48px;
+  padding-right: 25px;
+  text-shadow: inset 1px 1px 2px black;
+  &:hover {
+  	opacity: .7;
+  }
+}
+
+i.fa.fa-envelope-o {
+  color: #F3F3E5;
+  font-size: 48px;
+  padding-right: 25px;
+  text-shadow: inset 1px 1px 2px black;
+  &:hover {
+	opacity: .7;
+  }
+}
+
+i.fa.fa-twitter {
+  color: #F3F3E5;
+  font-size: 48px;
+  text-shadow: inset 1px 1px 2px black;
+  &:hover {
+    opacity: .7;
+  }
 }
