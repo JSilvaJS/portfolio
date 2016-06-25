@@ -1,7 +1,88 @@
+
+
+// ------------- FOR MOBILE START ---------------
+
+@media only screen and (max-width: 500px) {
+
+    .heading_wrapper {
+      width: 100vw;
+      display: flex;
+    }
+
+    .menu_wrapper1 {
+      display: flex;
+      margin: auto;
+      flex-direction: row;
+    }
+
+    .menu_wrapper2 {
+      align-items: center;
+      flex-direction: column;
+      display: flex; 
+    }
+
+    .aboutme_title {
+      background: url(http://i.imgur.com/R7iRXEW.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 85px;
+      height: 25px;
+      margin-left: 3vw;
+      margin-top: 5px;
+    }
+
+    .resume_title {
+      background: url(http://i.imgur.com/cKCeOBh.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 85px;
+      height: 25px;
+      margin-left: 3vw;
+      margin-top: 9px;
+    }
+
+    .projects_title {
+      background: url(http://i.imgur.com/4oVs157.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin-top: 10px;
+      width: 85px;
+      height: 35px;
+      margin-left: 3vw;
+    }
+
+    .film_video_title {
+      background: url(http://i.imgur.com/FxIfxcT.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 115px;
+      height: 25px;
+      margin-left: 3vw;
+      margin-bottom: 5px;
+    }
+
+
+}
+
+// ------------- FOR MOBILE END ---------------
+
+
+
+
+
+
+// -------------- START MENU SECTION -----------------
+
+@media only screen and (min-width: 501px) {
+
+
+// ------------ FOR DESKTOP START -----------
+
+
 .heading_wrapper {
-	width: 100vw;
-	height: 100px;
-	display: flex;
+  width: 100vw;
+  height: 100px;
+  display: flex;
 }
 
 // -------------- START LOGO SECTION -----------------
@@ -18,7 +99,6 @@
 // -------------- END LOGO SECTION -----------------
 
 
-// -------------- START MENU SECTION -----------------
 
 .menu_wrapper1 {
 	 display: flex;
@@ -115,5 +195,8 @@
     height: 60px;
     margin-left: 10px;
 }
+}
 
 // -------------- END MENU SECTION -----------------
+
+// ------------ FOR DESKTOP END -----------

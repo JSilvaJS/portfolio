@@ -1,52 +1,115 @@
-.dq_page_wrapper {
-  background-color: #3d3d39;
-  box-shadow: inset 0px 0px 13px 8px rgba(0, 0, 0, 0.5);
-  height: 90vh;
-  padding-top: 10px;
-  padding-bottom: 10px;	
+
+// ------- FOR MOBILE START -----------
+
+
+@media only screen and (max-width: 500px) {
+
+  .dq_page_wrapper {
+    background-color: #3d3d39;
+    box-shadow: inset 0px 0px 13px 8px rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-bottom: 10px; 
+  }
+
+  .dq_wrapper {
+    background-color: #f3f3e5;
+    margin: auto;
+    text-align: center;
+    height: 70vh;
+    width: 95%;
+    border-radius: 17px;
+    box-shadow: 0px 13px 13px 8px rgba(0, 0, 0, 0.5)
+  }
+
+  .dq_hero_img {
+    content: url(http://i.imgur.com/QlwCBuZ.png);
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    box-shadow: inset 0px 0px 13px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .dq-textarea {
+    background-color: white;
+    margin-top: 90px;
+    box-shadow: inset 0px 0px 13px 3px rgba(0, 0, 0, 0.5);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
+
+  .dq-title {
+    padding-top: 15px;
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-family: 'Satisfy', cursive;
+    opacity: .7;
+  }
+
+
 }
 
-.dq_wrapper {
-  background-color: #f3f3e5;
-  margin: auto;
-  text-align: center;
-  width: 600px;
-  height: 90vh;
-  border-radius: 17px;
-  box-shadow: 0px 13px 13px 8px rgba(0, 0, 0, 0.5)
-}
+// ------- FOR MOBILE END -----------
 
-.dq_hero_img {
-  content: url(http://i.imgur.com/QlwCBuZ.png);
-  width: 100%;
-  height: auto;
-  position: relative;
-  top: 50px;
-  box-shadow: inset 0px 0px 13px 8px rgba(0, 0, 0, 0.5);
-}
 
-.dq-textarea {
-  background-color: white;
-  margin-top: 90px;
-  box-shadow: inset 0px 0px 13px 3px rgba(0, 0, 0, 0.5);
-  padding-left: 25px;
-  padding-right: 25px;
-  padding-bottom: 25px;
-}
+//     <(^ ^ <) DANCE! <( ^ ^ )> DANCE!  (> ^ ^)>
+ 
 
-.dq-title {
-  padding-top: 25px;
-  font-size: 24px;
-  margin-bottom: 10px;
-  font-family: 'Satisfy', cursive;
-  opacity: .7;
-}
+// ---------- START OF DESKTOP ------------- 
 
-.dq-text {
-  font-family: 'Source Sans Pro', sans-serif;
-  opacity: .7;
-}
+@media only screen and (min-width: 501px) {
 
-.deployed-text {
-  margin-top: 15px;
+  .dq_page_wrapper {
+    background-color: #3d3d39;
+    box-shadow: inset 0px 0px 13px 8px rgba(0, 0, 0, 0.5);
+    height: 90vh;
+    padding-top: 10px;
+    padding-bottom: 10px;	
+  }
+
+  .dq_wrapper {
+    background-color: #f3f3e5;
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    height: 90vh;
+    border-radius: 17px;
+    box-shadow: 0px 13px 13px 8px rgba(0, 0, 0, 0.5)
+  }
+
+  .dq_hero_img {
+    content: url(http://i.imgur.com/QlwCBuZ.png);
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    box-shadow: inset 0px 0px 13px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .dq-textarea {
+    background-color: white;
+    margin-top: 90px;
+    box-shadow: inset 0px 0px 13px 3px rgba(0, 0, 0, 0.5);
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
+
+  .dq-title {
+    padding-top: 25px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Satisfy', cursive;
+    opacity: .7;
+  }
+
+  .dq-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    opacity: .7;
+  }
+
+  .deployed-text {
+    margin-top: 15px;
+  }
 }
